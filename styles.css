@@ -1,0 +1,75 @@
+html, body {
+    height: 100%; /* Make the full page height 100% */
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    background-color: #f8f9fa;
+}
+
+
+.customHeader {
+     background-image: #0056b3; /* Deep blue */
+    background-image: linear-gradient(#0056b3, #004a9a)
+}
+
+
+.container-fluid {
+    padding-left: 0 !important; /* Remove any padding */
+    margin-left: 0 !important; /* Remove any margins */
+  }
+
+  .text-section {
+    font-size: 1.5rem;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-heading {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem; 
+    display: inline-block;
+    margin: 0 auto;
+}
+
+  .hero-section {
+    color: #000;
+    text-align: center;
+    padding: 6.25rem 0 0 0;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 1.5rem;
+}
+.btn-primary {
+    background-color: #BF0A30;
+    border-color: #BF0A30;
+}
+.btn-primary:hover {
+    background-color: #A50C28;
+    border-color: #A50C28;
+}
+
+.feature-card {
+    box-shadow: #000 0px 0px 10px;
+    background-color: #BF0A30;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto
+}
