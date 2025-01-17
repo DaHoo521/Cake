@@ -36,11 +36,18 @@ body{
     margin: 0 auto;
 }
 
-  .hero-section {
-    color: #000;
+.hero-section {
+    color: #fff; /* Switch to white text for better contrast */
     text-align: center;
     padding: 6.25rem 0 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
 .hero-section h1 {
     font-size: 3rem;
     font-weight: bold;
