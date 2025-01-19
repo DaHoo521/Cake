@@ -6,7 +6,15 @@ body{
     flex-direction: column;
     display: flex;
     background-color: #f8f9fa;
-    font-family: "Playwrite VN", serif;
+}
+
+p{
+  font-family: "Roboto", serif;
+}
+
+.cardHead{
+  font-size: 2rem;
+  font-family: "Cherry Swash", serif;
 }
 
 
@@ -50,9 +58,17 @@ body{
 }
 
 .hero-section h1 {
-    font-size: 3rem;
+  font-family: "Cherry Swash", serif;
+    font-size: 4rem;
     font-weight: bold;
 }
+
+.hero-section h2 {
+  font-family: "Cherry Swash", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 .hero-section p {
     font-size: 1.5rem;
 }
@@ -101,6 +117,7 @@ body{
   }
 
   .nav-link {
+    font-family: "Poppins", serif;
     color: #fff;
     font-size: 1.4rem;
     padding: 0.5rem 1rem;
