@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     display: flex;
     background-color: #f8f9fa;
+    font-family: "Playwrite VN", serif;
 }
 
 
@@ -74,9 +75,42 @@ body{
 }
 
 .footer {
-    background-color: #0056b3;
-    color: #ffffff;
     text-align: center;
-    padding: 20px;
-    margin-top: auto
+    padding: 1rem 0;
+    background-color: #0056b3; 
+  }
+  
+  .footer p {
+    color: #fff; 
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: #fff; 
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a:hover {
+    color: #A50C28; 
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;}
+
+  .nav-link:hover {
+    background-color: #A50C28;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+/*Menu page*/
+
