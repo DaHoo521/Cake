@@ -19,7 +19,7 @@ p{
 
 
 .customHeader {
-     background-image: #0056b3; /* Deep blue */
+     background-color: #0056b3; /* Deep blue */
     background-image: linear-gradient(#0056b3, #004a9a)
 }
 
